@@ -1,5 +1,44 @@
+
+
 /* Main attributes */
 
 .gray{
    color: rgb(102, 102, 102);
 }
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+}
+
+nav div{
+    width: 100px;
+    background-color: violet;
+    height: 36px;
+    display: flex
+}
+/*
+nav img{
+    height: 30px;
+    width: 100px;
+}
+
+nav form{
+    display: inline-block;
+}
+
+#search-box{
+    width: 555px;
+    color: yellow;
+}
+
+#submit{
+    margin-left:-5px
+}
+
+*/
