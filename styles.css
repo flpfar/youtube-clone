@@ -48,3 +48,93 @@ nav img{
     border-style: none;
     margin-left: 30px;
 }
+
+/* Video player section */
+#video-content{
+    width: 640px;
+}
+
+
+#player{
+    margin-bottom: 10px;
+}
+
+#community-section{
+    padding: 10px;
+}
+
+#channel-info{
+    width: 100%;
+}
+
+#video-content table{
+    display: inline-block;
+}
+
+#video-content table td{
+    padding-right: 8px;
+}
+
+#video-content table h2{
+    font-size: 1em;
+}
+
+#subscribe-btn{
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-style: none;
+}
+
+#video-content table td span{
+    font-size: .9em;
+    color: rgb(102, 102, 102);
+}
+
+#video-content h1{
+    margin: 10px 0 10px 0
+}
+
+#views{
+    float: right;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    color: rgb(102, 102, 102);
+}
+
+#community-actions{
+    border-top: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#first-action{
+    margin-left: 0 !Important;
+}
+#community-actions a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    margin-left: 20px
+}
+
+#thumbs{
+    float: right;
+}
+
+#description{
+    font-size: .9em
+}
+
+#description a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-top: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    margin: 15px 0;
+    padding: 5px 0;
+}
