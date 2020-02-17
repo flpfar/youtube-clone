@@ -1,44 +1,50 @@
+* {
+    margin: 0;
+	box-sizing: border-box;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Main attributes */
 
 .gray{
    color: rgb(102, 102, 102);
 }
+
 nav{
-    background-color: aquamarine;
     width: 100%;
-    height: 100px;
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
+    justify-content: space-between;
+    padding: 7px 30px 8px;
     align-items: center;
 }
 
-nav div{
-    width: 100px;
-    background-color: violet;
-    height: 36px;
-    display: flex
+nav i { 
+    cursor: pointer;
 }
-/*
+
 nav img{
     height: 30px;
     width: 100px;
-}
-
-nav form{
-    display: inline-block;
+    margin-left: -200px;
 }
 
 #search-box{
     width: 555px;
-    color: yellow;
 }
 
-#submit{
-    margin-left:-5px
+#search-button{
+    margin-left:-6px;
+    height: 30px;
 }
 
-*/
+#signin-button{
+    background-color: rgb(22, 122, 198);
+    color: white;
+    height: 30px;
+    border-style: none;
+    margin-left: 30px;
+}
