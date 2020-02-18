@@ -89,19 +89,26 @@ nav img{
 }
 
 main{
-    width: calc(60% - 10px);
+    width: calc(70% - 10px);
 }
 
 aside{
-    width: 40%;
+    width: 30%;
+    padding: 14px 14px 0 14px;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
 }
 
 /* Video player section */
 #video-content{
-    
-
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 235, 235);
 }
 
+#video-title {
+    padding: 0 10px;
+}
 
 #player{
     margin-bottom: 10px;
@@ -167,12 +174,10 @@ aside{
 }
 
 #community-actions{
-    border-top: 1px solid rgb(173, 173, 173);
-    border-bottom: 1px solid rgb(173, 173, 173);
+    border-top: 1px solid rgb(235, 235, 235);
     margin-top: 10px;
-    padding: 10px 0 10px 0;
+    padding-top: 10px;
     width: 100%;
-    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     font-size: .75em;
@@ -196,18 +201,69 @@ aside{
     float: right;
 }
 
+#description-content {
+    padding: 10px 10px 0 10px;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+}
+
 #description{
-    font-size: .9em
+    font-size: .9em;
 }
 
 #description a{
     width: 100%;
     display: block;
     text-align: center;
-    border-top: 1px solid rgb(173, 173, 173);
-    border-bottom: 1px solid rgb(173, 173, 173);
+    border-top: 1px solid rgb(235, 235, 235);
     text-decoration: none;
     color: rgb(102, 102, 102);
-    margin: 15px 0;
+    margin-top: 15px;
+    padding: 5px 0;
+    font-size: 0.7em;
+}
+
+aside h4 {
+    font-size: 0.8em;
+    color: rgb(34, 34, 34);
+}
+
+.suggested-videos {
+    display: flex;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.suggested-videos img {
+    width: 168px;
+    height: 94px;
+}
+
+.suggested-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.suggested-details h3 {
+    font-size: 0.9em;
+    color: rgb(34, 34, 34);
+}
+
+.suggested-details span{
+    font-size: 0.7em;
+    color: rgb(102, 102, 102);
+    margin-top: 3px;
+}
+
+#suggested-showmore{
+    font-size: 0.7em;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-top: 1px solid rgb(235, 235, 235);
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
     padding: 5px 0;
 }
