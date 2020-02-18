@@ -9,43 +9,36 @@
 <body>
     <header>
         <nav> 
-            <i class="fas fa-bars"></i>
-            <img src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="YouTube Home"></img>        
+            <div id="nav-logo">
+                <i class="fas fa-bars"></i>
+                <img src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="YouTube Home"></img>           
+            </div>
             <form>
-                <input id="search-box" type="text" placeholder="Search">
-                <button id="search-button"><i class="fas fa-search"></i></button>
+                <div id="search">
+                    <input id="search-box" type="search" placeholder="Search">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
             </form>
             
-            <div>
+            <div id="account-actions">
                 <i class="fas fa-upload gray"></i>
-                <button id="signin-button">Sign in</button>
+                <button>Sign in</button>
             </div>
-            
+          
         </nav>
     </header>
 
     <section id="video-content">
         <iframe id="player" width="640" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        <div id="community-section">
-            <h1>Contributing to Open Source Part I: The Easy Way</h1>
-            <table>
-                <tr>
-                    <td rowspan="2">
-                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k=">
-                    </td>
+        <h1>Contributing to Open Source Part I: The Easy Way</h1>
 
-                    <td>
-                        <h2>The Odin Project</h2>
-                    </td>
-                    <tr>
-                        <td>
-                            <button id="subscribe-btn"><i class="fab fa-youtube"></i> Subscribe</button>
-                            <span>799</span>
-                        </td>
-                    </tr>      
-                </tr>
-            </table>
+        <div id="community-section">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k=">
+
+            <h2>The Odin Project</h2>
+
+                <button id="subscribe"><i class="fab fa-youtube"></i> Subscribe</button>
+                <span>799</span>
 
             <span id="views">50,016 views</span>  
                     
