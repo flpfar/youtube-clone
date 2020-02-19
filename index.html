@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="images/youtube.ico" type="image/x-icon">
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/8e996abce9.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav> 
+                <div id="nav-logo">
+                    <i class="fas fa-bars"></i>
+                    <img id="youtube-full-logo" src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="YouTube Home">        
+                    <img id="youtube-logo" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-512.png" alt="YouTube Home">          
+                </div>
+                <form>
+                    <div id="search">
+                        <input id="search-box" type="search" placeholder="Search">
+                        <button id="search-button"><i class="fas fa-search"></i></button>
+                    </div>
+                </form> 
+                <div id="account-actions">
+                    <img src="images/video.png" alt="Create a video or post">
+                    <img src="images/grid-icon.png" alt="YouTube apps">
+                    <img src="images/notification-icon.png" alt="Notifications">
+                    <img id="profile-pic" src="images/profile.jpeg" alt="Profile">
+                </div>
+            
+            </nav>
+        </header>
+
+        <!-- Body wrapper -->
+        <div id="wrapper"> 
+
+            <!-- Video content section -->
+            <main>
+                <!-- Video player, community actions and channel info-->
+                <section id="video-content">
+                    <div id="video-container">
+                        <iframe id="player" width="640" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h1 id="video-title">Contributing to Open Source Part I: The Easy Way</h1>
+
+                    <div id="community-content">
+                        <div id="channel-views">
+                            <div id="channel-content">
+                                <img alt="profile" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k=">
+
+                                <div id="channel-info">
+                                    <h2>The Odin Project</h2>
+                                    <div id="subscribe-content">
+                                        <button><i class="fab fa-youtube"></i> Subscribe</button>
+                                        <span>799</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="views">
+                                <span>50,016 views</span> 
+                            </div>
+                        </div>
+            
+                        <div id="community-actions">
+                            <div id="social">
+                                <a id="first-action" href="#"><i class="fas fa-plus"></i> Add to</a>
+                                <button><i class="fas fa-share"></i> Share</a></button>
+                                <a href="#"><i class="fas fa-ellipsis-h"></i> More</a>
+                            </div>
+                            <div id="thumbs">
+                                <a href="#"><i class="fas fa-thumbs-up"></i> 359</a>
+                                <a href="#"><i class="fas fa-thumbs-down"></i> 14</a>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                
+                <!-- Video description  -->
+                <section id="description-content">
+                    <div id="description">
+                        <h3>Published on Feb 27, 2014</h3>
+                        <p>
+                            How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
+                        </p>
+                        <a href="#">SHOW MORE</a>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Sidebar -->
+            <aside>
+                <h4>Up next</h4>
+                
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <div class="suggested-videos">
+                    <img class="thumbnail" src="images/thumbnail.jpeg" alt="Thumbnail">
+                    <div class="suggested-details">
+                        <h3>Contributing to Open Source Part II: The Real Way</h3>
+                        <span class="creator-channel">The Odin Project</span>
+                        <span class="suggested-vid-views">29,985 views</span>
+                    </div>
+                </div>
+                <a href="#" id="suggested-showmore">SHOW MORE</a>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+
+            <!-- Page configuration options (language, restrict mode, etc) -->
+            <div id="page-options">
+                <img src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="YouTube">
+                <button id="language">
+                    <i class="fas fa-language"></i> Language: <span>English &nbsp;<i class="fas fa-caret-down"></i></span>
+                </button>
+                <button id="location">
+                    Location: <span>Netherlands &nbsp;<i class="fas fa-caret-down"></i></span>
+                </button>
+                <button id="restrict">
+                    Restricted mode: <span>Off &nbsp;<i class="fas fa-caret-down"></i></span>
+                </button>
+                <button><i class="fas fa-hourglass-end"></i>&nbsp; History</button>
+                <button><i class="fas fa-question-circle"></i>&nbsp; Help</button>
+            </div>
+
+            <!-- Company primary and secondary links -->
+            <div id="company-section">
+                <ul id="footer-main-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Creators</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+                <ul id="footer-secondary-links">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy & Safety</a></li>
+                    <li><a href="#">Test new features</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
