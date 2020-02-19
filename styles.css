@@ -58,18 +58,21 @@ nav i {
   align-items: stretch;
   justify-content: center;
   height: 30px;
-  border: 1px solid rgb(173, 173, 173);
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 3px;
 }
 
 #search-box {
-  flex-basis: 85%;
+  flex-basis: 90%;
   padding-left: 5px;
 }
 
 #search-button {
-  flex-basis: 15%;
+  flex-basis: 10%;
   cursor: pointer;
   color: rgb(102, 102, 102);
+  background-color: rgb(236, 236, 236);
+  border-left: 1px solid rgb(211, 211, 211);
 }
 
 #account-actions {
@@ -82,13 +85,11 @@ nav i {
   color: rgb(102, 102, 102);
 }
 
-#account-actions button {
-  background-color: rgb(22, 122, 198);
-  color: white;
-  height: 30px;
-  border-style: none;
-  margin-left: 30px;
-  padding: 5px 8px;
+#account-actions img{
+  width: 30px;
+  border-radius: 50%;
+  margin: 0 11px;
+  cursor: pointer;
 }
 
 /* Body wrapper */
@@ -243,10 +244,13 @@ define a flexible width and height.
   margin-left: 0 !Important;
 }
 
-#community-actions a {
+#community-actions a,
+#community-actions button {
   text-decoration: none;
   color: rgb(102, 102, 102);
   margin-left: 20px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 #thumbs {
