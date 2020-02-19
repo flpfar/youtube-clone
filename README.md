@@ -1,57 +1,31 @@
 # Youtube Clone
 
-> One paragraph statement about the project.
+> This is a YouTube clone for the Basic HTML structure project.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](images/youtube-clone.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5, CSS3
+- Flexbox
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@flpfar](https://github.com/flpfar)
+- Twitter: [@flpfar](https://twitter.com/flpfar)
+- Linkedin: [linkedin](https://www.linkedin.com/in/felipe-augusto-rosa-7b96a4b1)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@lBuggie](https://github.com/githubhandle)
+- Twitter: [@sebGilR](https://twitter.com/sebGilR)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sebasti%C3%A1n-gil-rodr%C3%ADguez-9b776073/)
 
 ## 🤝 Contributing
 
@@ -65,10 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- https://flaviocopes.com published code snippet for responsive YouTube player.
