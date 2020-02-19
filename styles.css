@@ -1,6 +1,6 @@
-/* Reset and body styles*/
+/* Reset and body styles */
 * {
-    margin: 0;
+  margin: 0;
     box-sizing: border-box;
     padding: 0;
     border: 0;
@@ -14,7 +14,7 @@ body {
 
 /* Navbar */
 
-nav{
+nav {
     width: 100%;
     height: 50px;
     display: flex;
@@ -27,7 +27,8 @@ nav{
     z-index: 1;
 }
 
-nav i { 
+nav i 
+{ 
     cursor: pointer;
 }
 
@@ -35,13 +36,13 @@ nav i {
     color: rgb(102, 102, 102);
 }
 
-#youtube-full-logo{
+#youtube-full-logo {
     height: 30px;
     width: 100px;
     margin-left: 15px;
 }
 
-#nav-logo{
+#nav-logo {
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -52,7 +53,7 @@ nav i {
     display: none;
 }
 
-#search{
+#search {
     width: 50vw;
     display: flex;
     align-items: stretch;
@@ -61,28 +62,28 @@ nav i {
     border: 1px solid rgb(173, 173, 173);
 }
 
-#search-box{
+#search-box {
     flex-basis: 85%;
     padding-left: 5px;
 }
 
-#search-button{
+#search-button {
     flex-basis: 15%;
     cursor: pointer;
     color: rgb(102, 102, 102);
 }
 
-#account-actions{
+#account-actions {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-#account-actions .fa-upload{
+#account-actions .fa-upload {
     color: rgb(102, 102, 102)
 }
 
-#account-actions button{
+#account-actions button {
     background-color: rgb(22, 122, 198);
     color: white;
     height: 30px;
@@ -92,7 +93,7 @@ nav i {
 }
 
 /* Body wrapper */
-#wrapper{
+#wrapper {
     width: 90%;
     display: flex;
     position: relative;
@@ -102,11 +103,11 @@ nav i {
 }
 
 /* Main columns styling */
-main{
+main {
     width: calc(70% - 10px);
 }
 
-aside{
+aside {
     width: 30%;
     padding: 14px 14px 0 14px;
     background-color: white;
@@ -115,7 +116,7 @@ aside{
 
 /* Video player section */
 
-#video-content{
+#video-content {
     background-color: white;
     margin-bottom: 10px;
     border: 1px solid rgb(225, 225, 225);
@@ -144,17 +145,18 @@ define a flexible width and height.
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
 } 
 
 #video-title {
     padding: 0 10px;
 }
 
-#player{
+#player {
     margin-bottom: 10px;
 }
 
-#community-content{
+#community-content {
     padding: 10px;
 }
 
@@ -169,7 +171,7 @@ define a flexible width and height.
     justify-content: flex-start;
 }
 
-#channel-info{
+#channel-info {
     margin-left: 8px;
     display: flex;
     flex-direction: column;
@@ -191,7 +193,7 @@ define a flexible width and height.
     
 }
 
-#subscribe-content button{
+#subscribe-content button {
     background-color: red;
     padding: 2px 6px;
     color: white;
@@ -199,7 +201,7 @@ define a flexible width and height.
     cursor: pointer;
 }
 
-#subscribe-content span{
+#subscribe-content span {
     background-color: white;
     border-top: 1px solid rgb(173, 173, 173);
     border-right: 1px solid rgb(173, 173, 173);
@@ -209,21 +211,21 @@ define a flexible width and height.
     border-radius: 0 3px 3px 0;
 }
 
-#subscribe-counter{
+#subscribe-counter {
     color: rgb(102, 102, 102);
 }
 
-#video-content h1{
+#video-content h1 {
     margin: 10px 0 10px 0
 }
 
-#views{
+#views {
     margin-top: 1.5em;
     font-size: 1.1em;
     color: rgb(102, 102, 102);
 }
 
-#community-actions{
+#community-actions {
     border-top: 1px solid rgb(225, 225, 225);
     margin-top: 10px;
     padding-top: 10px;
@@ -233,21 +235,21 @@ define a flexible width and height.
     font-size: .75em;
 }
 
-#community-actions i{
+#community-actions i {
     font-size: 1.4em;
     margin-right: 6px;
 }
 
-#first-action{
+#first-action {
     margin-left: 0 !Important;
 }
-#community-actions a{
+#community-actions a {
     text-decoration: none;
     color: rgb(102, 102, 102);
     margin-left: 20px
 }
 
-#thumbs{
+#thumbs {
     float: right;
 }
 
@@ -257,11 +259,11 @@ define a flexible width and height.
     border: 1px solid rgb(225, 225, 225);
 }
 
-#description{
+#description {
     font-size: .9em;
 }
 
-#description a{
+#description a {
     width: 100%;
     display: block;
     text-align: center;
@@ -301,13 +303,13 @@ aside h4 {
     color: rgb(34, 34, 34);
 }
 
-.suggested-details span{
+.suggested-details span {
     font-size: 0.7em;
     color: rgb(102, 102, 102);
     margin-top: 3px;
 }
 
-#suggested-showmore{
+#suggested-showmore {
     font-size: 0.7em;
     width: 100%;
     display: block;

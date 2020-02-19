@@ -1,6 +1,8 @@
 # Youtube Clone
 
-> This is a YouTube clone for the Basic HTML structure project.
+> This is a YouTube clone for the Basic HTML structure project based on the archive link provided.
+
+- Archive: http://archive.ph/Bss88
 
 ![screenshot](images/youtube-clone.png)
 
