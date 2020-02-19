@@ -1,3 +1,4 @@
+/* Reset and body styles*/
 * {
     margin: 0;
     box-sizing: border-box;
@@ -11,9 +12,7 @@ body {
     background-color: rgb(239, 239, 239);
 }
 
-/* Main attributes */
-
-
+/* Navbar */
 
 nav{
     width: 100%;
@@ -30,6 +29,10 @@ nav{
 
 nav i { 
     cursor: pointer;
+}
+
+.nav-logo .bars{
+    color: rgb(102, 102, 102);
 }
 
 #youtube-full-logo{
@@ -66,12 +69,17 @@ nav i {
 #search-button{
     flex-basis: 15%;
     cursor: pointer;
+    color: rgb(102, 102, 102);
 }
 
 #account-actions{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+#account-actions .fa-upload{
+    color: rgb(102, 102, 102)
 }
 
 #account-actions button{
@@ -93,6 +101,7 @@ nav i {
     margin-top: 60px;
 }
 
+/* Main columns styling */
 main{
     width: calc(70% - 10px);
 }
@@ -105,6 +114,7 @@ aside{
 }
 
 /* Video player section */
+
 #video-content{
     background-color: white;
     margin-bottom: 10px;
@@ -144,7 +154,7 @@ define a flexible width and height.
     margin-bottom: 10px;
 }
 
-#community-section{
+#community-content{
     padding: 10px;
 }
 
@@ -154,7 +164,7 @@ define a flexible width and height.
     align-items: flex-end;
 }
 
-#channel-section {
+#channel-content {
     display: flex;
     justify-content: flex-start;
 }
@@ -263,6 +273,7 @@ define a flexible width and height.
     font-size: 0.7em;
 }
 
+/* Sidebar elements styling */
 aside h4 {
     font-size: 0.8em;
     color: rgb(34, 34, 34);
@@ -308,6 +319,7 @@ aside h4 {
     padding: 5px 0;
 }
 
+/* Footer styling */
 footer{
     display: flex;
     flex-direction: column;
@@ -391,6 +403,15 @@ footer{
         max-height: 70px;
         height: auto;
     }
+
+    #page-options{
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    #page-options button{
+        margin-top: 5px;
+    }
 }
 
 @media (max-width: 640px){
@@ -412,6 +433,33 @@ footer{
     }
     #youtube-logo {
         display: inline;
+        margin-left: 15px;
     }
 
+}
+
+@media (max-width: 530px){
+    #account-actions{
+        display: none;
+    }
+    
+    #search{
+        width: auto;
+    }
+
+    #search-box{
+        display: none;
+    }
+    
+    #search-button{
+        padding: 0 18px;
+    }
+
+    #footer-main-links, #footer-secondary-links{
+        flex-wrap: wrap;
+    }
+
+    #company-section ul li{
+        margin-top: 5px;
+    }
 }
